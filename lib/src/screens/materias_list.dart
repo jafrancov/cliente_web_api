@@ -22,7 +22,7 @@ class _MateriasListPageState extends State<MateriasListPage> {
               return ListView.separated(
                 separatorBuilder: (context, index) {
                   return Divider(
-                    height: 2.0,
+                    height: 1.0,
                     color: Colors.black,
                   );
                 },

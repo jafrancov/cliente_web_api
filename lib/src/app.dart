@@ -7,15 +7,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       routes: {
-        '/inicio': (context) => new ScreenPage(),
+        '/inicio': (context) => HomeScreenPage(),
         '/materia' : (context) => MateriaCreatePage()
       },
-      home: new ScreenPage()
+      home: new HomeScreenPage()
     );
   }
 }
 
-class ScreenPage extends StatelessWidget {
+class HomeScreenPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
